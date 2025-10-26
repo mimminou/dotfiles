@@ -32,7 +32,6 @@ tooltip {
     padding: 0px 1px;
     border-radius: 15px;
     border: 0px;
-    font-weight: bold;
     font-style: normal;
     opacity: 0.8;
     color: @textcolor1;
@@ -80,6 +79,7 @@ tooltip {
 #bluetooth,
 #disk,
 #custom-wlogout,
+#power-profiles-daemon,
 #tray {
     background: #1e1e2e;
     opacity: 0.95;
@@ -210,6 +210,12 @@ tooltip {
 #custom-wlogout {
    border-radius: 0px 13px 13px 0px;
    margin-right: 0px;
-   padding-right: 12px;
+   padding-right: 6px;
+   margin-left: 0px;
+}
+
+#power-profiles-daemon {
+   border-radius: 0px 0px 0px 0px;
+   margin-right:0px;
    margin-left: 0px;
 }
