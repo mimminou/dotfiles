@@ -134,7 +134,8 @@
 	  "format-ar": "ara",
 	  "format-en": "eng",
 	  "format-fr": "fr",
-},
+	  "on-click": "hyprctl switchxkblayout at-translated-set-2-keyboard next",
+	},
   "network": {
         "interval": 10,
         "format-wifi": "  {essid} ({signalStrength}%)", // Icon: wifi
