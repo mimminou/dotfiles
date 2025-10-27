@@ -136,15 +136,18 @@
 	  "format-fr": "fr",
 },
   "network": {
-    "interface": "",
-    "format-wifi": "{essid} ({signalStrength}%)",
-    "format-ethernet": "{ifname}: {ipaddr}",
-    "tooltip-format": "{ifname} {ipaddr}"
-  },
-  "custom/wlogout":{
+        "interval": 10,
+        "format-wifi": "  {essid} ({signalStrength}%)", // Icon: wifi
+        "format-ethernet": "󰈀 {ifname}: {ipaddr}/{cidr}", // Icon: ethernet
+        "format-disconnected": "⚠  Disconnected",
+        "tooltip-format": "{ifname}: {ipaddr}",
+		"on-click":"alacritty -e nmtui",
+	},
+	  "custom/wlogout":{
 	"on-click": "wlogout",
 	"format": "⏻ ",
 },
+
 "power-profiles-daemon": {
   "format": "{icon}",
   "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
