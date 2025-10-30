@@ -1,5 +1,6 @@
 # dotfiles
 Dotfiles for various stuff I use
+configured using gnu stow
 
 ##TODO
 
@@ -7,11 +8,12 @@ Dotfiles for various stuff I use
 
 ##Requirements :
 - XDG hyprland portal + wlr portal (for firefox webcam)
-- hyprland devel for plugins
+- hyprland devel for plugins + plugins
 - swayosd
 - hyprpaper
 - hypridle
 - wlogout
 - waybar
 - dunst
+- nvim >=0.11
 
