@@ -21,12 +21,12 @@
     "clock",
 	],
   "modules-right": [
+	"tray",
     "hyprland/language",
     "pulseaudio",
     "pulseaudio#microphone",
 	"power-profiles-daemon",
 	"battery",
-	"tray",
 	"custom/wlogout",
   ],
 
