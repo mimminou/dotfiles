@@ -10,7 +10,7 @@ configured using gnu stow
 - XDG hyprland portal + wlr portal (for firefox webcam)
 - hyprland devel for plugins + plugins
 - swayosd
-- hyprpaper
+- hyprpaper + waypaper for gui control over wallpaper
 - hypridle
 - wlogout
 - waybar

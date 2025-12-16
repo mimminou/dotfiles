@@ -73,7 +73,6 @@ tooltip {
 #pulseaudio,
 #pulseaudio.microphone,
 #workspaces,
-#tray,
 #memory,
 #network,
 #bluetooth,
@@ -83,12 +82,25 @@ tooltip {
 #tray {
     background: #1e1e2e;
     opacity: 0.95;
-    border-radius: 15px;
-    padding: 2px 8px 2px 8px;
+    border-radius: 13px;
+    padding: 2px 8px;
     margin-top: 4px;
     margin-bottom: 4px;
     margin-right: 5px;
     margin-left: 5px;
+}
+
+#tray > * > * {
+  margin: 0px 4px;
+  padding: 0px;
+}
+
+#tray > :first-child > * {
+  margin-left: 0px;
+}
+
+#tray > :last-child > * {
+  margin-right: 0px;
 }
 
 #window {
